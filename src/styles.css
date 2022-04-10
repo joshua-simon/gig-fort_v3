@@ -63,6 +63,7 @@
 }
 .register-container label {
     font-family: Helvetica;
+    font-size: small;
     margin:2%;
 }
 .register-container p{
@@ -80,4 +81,9 @@
     cursor: pointer;
     margin-top:10%;
     width:85%;
+}
+
+.register-footer {
+    text-align: center;
+    margin-top:5%;
 }
