@@ -1,0 +1,31 @@
+@import url(//db.onlinewebfonts.com/c/05428692254b58ccb090358a3dfecfff?family=Sofia+Pro);
+@font-face {font-family: "Sofia Pro"; src: url("//db.onlinewebfonts.com/t/05428692254b58ccb090358a3dfecfff.eot"); src: url("//db.onlinewebfonts.com/t/05428692254b58ccb090358a3dfecfff.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/05428692254b58ccb090358a3dfecfff.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/05428692254b58ccb090358a3dfecfff.woff") format("woff"), url("//db.onlinewebfonts.com/t/05428692254b58ccb090358a3dfecfff.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/05428692254b58ccb090358a3dfecfff.svg#Sofia Pro") format("svg"); }
+@font-face {
+    font-family: Helvetica;
+    src: url("./assets/fonts/HelveticaNeue-Light.otf") format("opentype");
+}
+
+.landing-container{
+    text-align: center;
+    margin-top:10%;
+}
+
+.landing-buttons{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:2%;
+}
+
+.landing-buttons button{
+    margin:3px;
+    padding:5px;
+    border: none;
+    font-family: "Sofia Pro";
+    color:rgb(53, 51, 51);
+    background-color: Transparent;
+    cursor: pointer;
+    font-size: large;
+    border-radius: 5%;
+    letter-spacing: 1px;
+}
