@@ -5,6 +5,8 @@
     src: url("./assets/fonts/HelveticaNeue-Light.otf") format("opentype");
 }
 
+/* logo color: #ba9457 */
+
 .landing-container{
     text-align: center;
     margin-top:10%;
@@ -28,4 +30,54 @@
     font-size: large;
     border-radius: 5%;
     letter-spacing: 1px;
+}
+
+.register-container{
+    width:20%;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    margin-top:10%;
+    border: 1px solid rgb(179, 176, 176);
+    padding:5%;
+    background:white;
+    align-items: center;
+    border-radius: 2%;
+}
+
+.register-container form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:80%;
+    margin-top:1em;
+    padding:5%;
+}
+
+.register-container input {
+    margin:2%;
+    border:1px solid rgb(179, 176, 176);
+    border-radius: 2%;
+    padding:2%;
+}
+.register-container label {
+    font-family: Helvetica;
+    margin:2%;
+}
+.register-container p{
+    font-family: "Sofia Pro";
+    color:#ba9457;
+}
+
+.register-container button{
+    background-color: rgb(78, 78, 241);
+    border: none;
+    font-family: 'Sofia Pro';
+    color:white;
+    border-radius:3%;
+    padding:2%;
+    cursor: pointer;
+    margin-top:10%;
+    width:85%;
 }
